@@ -2,8 +2,7 @@ name: Test PR action
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   echoing:
