@@ -6,8 +6,9 @@ on:
       - main
 
 jobs:
-  test:
+  echoing:
     runs-on: ubuntu-latest
-    - name: Simple test
-      run: |
-        echo "Test"
+    steps:
+      - name: Simple test
+        run: |
+          echo "Test"
