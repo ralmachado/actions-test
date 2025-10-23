@@ -1,0 +1,12 @@
+name: Test PR action
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    - name: Simple test
+      run: |
+        echo "Test"
