@@ -9,6 +9,6 @@ jobs:
   echoing:
     runs-on: ubuntu-latest
     steps:
-    - name: Simple test
-      run: |
-        echo "Test"
+      - name: Simple test
+        run: |
+          echo "Test"
