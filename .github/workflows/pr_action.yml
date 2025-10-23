@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  echoing:
     runs-on: ubuntu-latest
     - name: Simple test
       run: |
