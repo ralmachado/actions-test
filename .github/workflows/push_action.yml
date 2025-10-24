@@ -1,0 +1,14 @@
+name: Push action
+
+on:
+  push:
+    branches: [main]
+    paths: ["backend/src/**"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Simple test
+        run: |
+          echo "Push on backend/src/ detected"
